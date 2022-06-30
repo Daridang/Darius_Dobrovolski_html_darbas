@@ -17,6 +17,15 @@
 .desktop-menu {
     display: none;
 }
+.desktop-menu a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #555555;
+}
+.desktop-menu a:last-child {
+    color: #FF3998;
+}
 
 .header {
   padding-top: 32px;
