@@ -1,0 +1,18 @@
+/* #region header */
+.header {
+    padding-top: 32px;
+    margin-bottom: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mobile-menu__line {
+    height: 4px;
+    width: 24px;
+    border-radius: 3px;
+    background-color: #999999;
+}
+.mobile-menu__line:not(.mobile-menu__line:last-child) {
+    margin-bottom: 5px;
+}
+/* #endregion header */
