@@ -13,6 +13,20 @@
 /* #endregion common css */
 
 /* #region header */
+
+.desktop-menu {
+    display: none;
+}
+.desktop-menu a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #555555;
+}
+.desktop-menu a:last-child {
+    color: #FF3998;
+}
+
 .header {
   padding-top: 32px;
   margin-bottom: 42px;
@@ -28,6 +42,16 @@
 }
 .mobile-menu__line:not(.mobile-menu__line:last-child) {
   margin-bottom: 5px;
+}
+
+@media screen and (min-width: 1280px) {
+    .mobile-menu {
+        display: none;
+    }
+    .desktop-menu {
+        display: flex;
+        gap: 15px;
+    }
 }
 /* #endregion header */
 
