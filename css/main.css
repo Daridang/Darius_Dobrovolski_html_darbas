@@ -15,16 +15,16 @@
 /* #region header */
 
 .desktop-menu {
-    display: none;
+  display: none;
 }
 .desktop-menu a {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 100%;
-    color: #555555;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: #555555;
 }
 .desktop-menu a:last-child {
-    color: #FF3998;
+  color: #ff3998;
 }
 
 .header {
@@ -45,13 +45,13 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .mobile-menu {
-        display: none;
-    }
-    .desktop-menu {
-        display: flex;
-        gap: 15px;
-    }
+  .mobile-menu {
+    display: none;
+  }
+  .desktop-menu {
+    display: flex;
+    gap: 15px;
+  }
 }
 /* #endregion header */
 
@@ -97,6 +97,21 @@
   background-color: #fff;
   border: 4px solid #ff3998;
   border-radius: 32px;
+}
+
+@media screen and (min-width: 1280px) {
+  .sign-up-card {
+    width: 45%;
+  }
+  .sign-up-card__title {
+    font-size: 96px;
+    line-height: 116px;
+  }
+  .hero {
+    background-position-x: 650px;
+    background-position-y: -30px;
+    background-size: 640px;
+  }
 }
 /* #endregion sign-up-card */
 
@@ -270,78 +285,77 @@
 
 /* #region footer */
 .footer {
-    padding-top: 64px;
-    padding-bottom: 95px;
-    color: #555555;
+  padding-top: 64px;
+  padding-bottom: 95px;
+  color: #555555;
 }
 .footer__logo {
-    margin-bottom: 64px;
+  margin-bottom: 64px;
 }
 .logo__img {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .footer__logo p {
-    margin-bottom: 32px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 100%;
+  margin-bottom: 32px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
 }
 .footer .icons {
-    display: flex;
-    gap: 15px;
+  display: flex;
+  gap: 15px;
 }
 
 .about {
-    grid-area: about;
+  grid-area: about;
 }
 .nft {
-    grid-area: nft;
+  grid-area: nft;
 }
 .contact {
-    grid-area: contact;
+  grid-area: contact;
 }
 .social {
-    grid-area: social;
+  grid-area: social;
 }
 .info-links {
-    margin-bottom: 16px;
-    display: grid;
-    grid-template-columns: 33% 33%;
-    grid-template-rows: auto;
-    grid-template-areas: 
+  margin-bottom: 16px;
+  display: grid;
+  grid-template-columns: 33% 33%;
+  grid-template-rows: auto;
+  grid-template-areas:
     "about nft"
-    "contact social"
-    ;
+    "contact social";
 }
 
 .about h4,
 .nft h4,
 .contact h4,
 .social h4 {
-    margin-bottom: 28px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+  margin-bottom: 28px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 .info-links :not(h4) {
-    margin-bottom: 16px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 100%;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
 }
 .info-links > * {
-    margin-bottom: 28px;
+  margin-bottom: 28px;
 }
 
 .footer__copyright :first-child {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 100%;
-    color: #999999;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: #999999;
 }
 .footer__copyright :last-child {
-    display: none;
+  display: none;
 }
 /* #endregion footer */
