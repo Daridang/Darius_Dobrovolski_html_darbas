@@ -5,6 +5,11 @@
 .text-dark {
   color: #111111;
 }
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: #eee;
+}
 /* #endregion common css */
 
 /* #region header */
@@ -122,3 +127,100 @@
     ;
 }
 /* #endregion press */
+
+/* #region showcase */
+.showcase {
+    padding-bottom: 92px;
+}
+.showcase__title {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+}
+.showcase__description {
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #555;
+}
+.showcase__description a {
+    padding-bottom: 1px;
+    border-bottom: 2px solid #555;
+}
+
+.card__main-img {
+    display: block;
+}
+.card__info {
+    width: 290px;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    background-color: #eee;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.card__info >* {
+    flex-basis: 50%;
+}
+.card__info :nth-child(even) {
+    text-align: end;
+}
+.card__collection-title {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #ff8139;
+}
+.card__top-bid {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #777;
+}
+.card__nft-title {
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+}
+.card__price {
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+}
+.card .price-icon {
+    margin-right: 5px;
+}
+.card .price {
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+}
+.card__nft-id {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #777;
+    align-self: flex-end;
+}
+.card__time-left {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #777;
+    align-self: flex-end;
+}
+/* #endregion showcase */
