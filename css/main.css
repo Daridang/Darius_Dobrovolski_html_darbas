@@ -6,9 +6,9 @@
   color: #111111;
 }
 .divider {
-    width: 100%;
-    height: 2px;
-    background-color: #eee;
+  width: 100%;
+  height: 2px;
+  background-color: #eee;
 }
 /* #endregion common css */
 
@@ -101,126 +101,145 @@
 
 /* #region press */
 .press__content {
-    padding-top: 64px;
-    padding-bottom: 56px;
+  padding-top: 64px;
+  padding-bottom: 56px;
 }
 .press__content:nth-child(1) {
-    grid-area: img1;
+  grid-area: img1;
 }
 .press__content:nth-child(2) {
-    grid-area: img2;
+  grid-area: img2;
 }
 .press__content:nth-child(3) {
-    grid-area: img3;
+  grid-area: img3;
 }
 .press__content:nth-child(4) {
-    grid-area: img4;
+  grid-area: img4;
 }
 .press__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    gap: 23px;
-    grid-template-areas: 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 23px;
+  grid-template-areas:
     "img1 img2"
-    "img3 img4"
-    ;
+    "img3 img4";
 }
 /* #endregion press */
 
 /* #region showcase */
 .showcase {
-    padding-bottom: 92px;
+  padding-bottom: 92px;
 }
 .showcase__title {
-    margin-bottom: 16px;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 48px;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
 }
 .showcase__description {
-    margin-bottom: 40px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    color: #555;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #555;
 }
 .showcase__description a {
-    padding-bottom: 1px;
-    border-bottom: 2px solid #555;
+  padding-bottom: 1px;
+  border-bottom: 2px solid #555;
 }
 
 .card__main-img {
-    display: block;
+  display: block;
 }
 .card__info {
-    width: 290px;
-    padding: 24px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  width: 290px;
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
-    background-color: #eee;
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
+  background-color: #eee;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
 }
-.card__info >* {
-    flex-basis: 50%;
+.card__info > * {
+  flex-basis: 50%;
 }
 .card__info :nth-child(even) {
-    text-align: end;
+  text-align: end;
 }
 .card__collection-title {
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 100%;
-    text-transform: uppercase;
-    color: #ff8139;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #ff8139;
 }
 .card__top-bid {
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 100%;
-    text-transform: uppercase;
-    color: #777;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #777;
 }
 .card__nft-title {
-    margin-bottom: 12px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 100%;
+  margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
 }
 .card__price {
-    margin-bottom: 12px;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: end;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
 }
 .card .price-icon {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 .card .price {
-    margin: 0;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 100%;
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
 }
 .card__nft-id {
-    margin: 0;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 100%;
-    color: #777;
-    align-self: flex-end;
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: #777;
+  align-self: flex-end;
 }
 .card__time-left {
-    margin: 0;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 100%;
-    color: #777;
-    align-self: flex-end;
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: #777;
+  align-self: flex-end;
 }
 /* #endregion showcase */
+
+/* #region footer-upsell */
+.footer-upsell {
+  padding-top: 64px;
+  padding-bottom: 66px;
+  background-image: url(../images/upsell-footer-image.svg);
+  background-repeat: no-repeat;
+  background-position-x: 253px;
+  background-position-y: 145px;
+}
+.footer-upsell .sign-up-card {
+  width: 60%;
+}
+.footer-upsell .sign-up-card__title {
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 68px;
+  margin-bottom: 24px;
+}
+/* #endregion footer-upsell */
