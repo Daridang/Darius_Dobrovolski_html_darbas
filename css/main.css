@@ -250,13 +250,13 @@
     padding-bottom: 95px;
     color: #555555;
 }
-.logo {
+.footer__logo {
     margin-bottom: 64px;
 }
 .logo__img {
     margin-bottom: 30px;
 }
-.logo p {
+.footer__logo p {
     margin-bottom: 32px;
     font-weight: 400;
     font-size: 20px;
