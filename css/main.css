@@ -29,6 +29,7 @@
 /* #region sign-up-card */
 .hero {
     padding-top: 38px;
+    padding-bottom: 80px;
     background-image: url(../images/graphic.png);
     background-repeat: no-repeat;
     background-position-x: 205px;
@@ -50,11 +51,13 @@
     font-weight: 900;
     font-size: 48px;
     line-height: 58px;
+    margin-bottom: 24px;
 }
 .sign-up-card__description {
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
+    margin-bottom: 32px;
 }
 .sign-up-card__btn {
     font-family: "Inter", sans-serif;
