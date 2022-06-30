@@ -124,6 +124,19 @@
   background-position: right;
   background-position-x: -750px;
 }
+@media screen and (min-width: 1280px) {
+    .upsell {
+        background-position: center center;
+        background-size: contain;
+    }
+    .text-block {
+        padding-left: 64px;
+        padding-bottom: 64px;
+    }
+    .upsell__title br {
+        display: none;
+    }
+}
 .upsell__title {
   margin-bottom: 16px;
   font-weight: 500;
