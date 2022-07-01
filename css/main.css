@@ -182,6 +182,18 @@
     "img1 img2"
     "img3 img5";
 }
+
+@media screen and (min-width: 1280px) {
+    .press__content :nth-child(4) {
+        display: inline-block;
+    }
+    .press__content {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
 /* #endregion press */
 
 /* #region showcase */
