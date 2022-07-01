@@ -534,6 +534,7 @@
   text-transform: uppercase;
 }
 .info-links :not(h4) {
+  display: block;
   margin-bottom: 16px;
   font-weight: 400;
   font-size: 20px;
