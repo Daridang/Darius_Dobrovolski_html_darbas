@@ -140,9 +140,23 @@
     line-height: 86px;
   }
   .hero {
-    background-position-x: 410px;
+    background-position-x: 365px;
     background-position-y: 0px;
-    background-size: 450px;
+    background-size: 530px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .sign-up-card {
+    width: 60%;
+  }
+  .sign-up-card__title {
+    font-size: 72px;
+    line-height: 86px;
+  }
+  .hero {
+    background-position-x: 575px;
+    background-position-y: -40px;
+    background-size: 575px;
   }
 }
 @media screen and (min-width: 1280px) {
