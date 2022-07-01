@@ -317,12 +317,18 @@
 
 /* #region footer-upsell */
 .footer-upsell {
+  position: relative;
   padding-top: 64px;
   padding-bottom: 66px;
   background-image: url(../images/upsell-footer-image.svg);
   background-repeat: no-repeat;
   background-position-x: 253px;
   background-position-y: 145px;
+}
+.footer-upsell .divider {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 .footer-upsell .sign-up-card {
   width: 60%;
@@ -350,9 +356,15 @@
 
 /* #region footer */
 .footer {
+  position: relative;
   padding-top: 64px;
   padding-bottom: 95px;
   color: #555555;
+}
+.footer .divider {
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 .footer__logo {
   margin-bottom: 64px;
