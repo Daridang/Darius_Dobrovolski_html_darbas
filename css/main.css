@@ -43,7 +43,15 @@
 .mobile-menu__line:not(.mobile-menu__line:last-child) {
   margin-bottom: 5px;
 }
-
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+  .desktop-menu {
+    display: flex;
+    gap: 15px;
+  }
+}
 @media screen and (min-width: 1280px) {
   .mobile-menu {
     display: none;
@@ -123,6 +131,34 @@
   width: calc(100% - calc(3px) * 2);
 }
 
+@media screen and (min-width: 768px) {
+  .sign-up-card {
+    width: 60%;
+  }
+  .sign-up-card__title {
+    font-size: 72px;
+    line-height: 86px;
+  }
+  .hero {
+    background-position-x: 365px;
+    background-position-y: 0px;
+    background-size: 530px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .sign-up-card {
+    width: 60%;
+  }
+  .sign-up-card__title {
+    font-size: 72px;
+    line-height: 86px;
+  }
+  .hero {
+    background-position-x: 575px;
+    background-position-y: -40px;
+    background-size: 575px;
+  }
+}
 @media screen and (min-width: 1280px) {
   .sign-up-card {
     width: 45%;
@@ -161,6 +197,18 @@
   line-height: 150%;
 }
 
+@media screen and (min-width: 768px) {
+  .upsell {
+    background-position: center center;
+  }
+  .text-block {
+    padding-left: 64px;
+    padding-bottom: 64px;
+  }
+  .upsell__title br {
+    display: none;
+  }
+}
 @media screen and (min-width: 1280px) {
   .upsell {
     background-position: center center;
@@ -207,6 +255,18 @@
     "img3 img5";
 }
 
+@media screen and (min-width: 768px) {
+  .press__content :nth-child(4) {
+    display: inline-block;
+  }
+  .press__content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
 @media screen and (min-width: 1280px) {
   .press__content :nth-child(4) {
     display: inline-block;
@@ -322,8 +382,28 @@
   gap: 40px;
 }
 
+@media screen and (min-width: 768px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+  }
+  .showcase {
+    padding-bottom: 80px;
+  }
+  .showcase__title {
+    margin-bottom: 24px;
+  }
+  .showcase__description {
+    margin-bottom: 56px;
+  }
+}
 @media screen and (min-width: 1280px) {
   .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
     gap: 0;
     justify-content: space-between;
   }
@@ -362,6 +442,19 @@
   font-size: 56px;
   line-height: 68px;
   margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-upsell {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-repeat: no-repeat;
+    background-position-x: 85%;
+    background-position-y: bottom;
+  }
+  .footer-upsell .sign-up-card {
+    width: 50%;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -441,6 +534,7 @@
   text-transform: uppercase;
 }
 .info-links :not(h4) {
+  display: block;
   margin-bottom: 16px;
   font-weight: 400;
   font-size: 20px;
@@ -460,6 +554,36 @@
   display: none;
 }
 
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+
+  .footer__info-block {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .footer__logo {
+    margin-bottom: 0;
+  }
+  .info-links {
+    margin-bottom: 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 50px;
+    grid-template-areas:
+      "about nft"
+      "contact social";
+  }
+
+  .footer__copyright {
+    display: flex;
+    justify-content: center;
+  }
+}
 @media screen and (min-width: 1280px) {
   .footer {
     padding-top: 120px;
