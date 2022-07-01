@@ -333,6 +333,19 @@
   line-height: 68px;
   margin-bottom: 24px;
 }
+
+@media screen and (min-width: 1280px) {
+  .footer-upsell {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-repeat: no-repeat;
+    background-position-x: 75%;
+    background-position-y: bottom;
+  }
+  .footer-upsell .sign-up-card {
+    width: 50%;
+  }
+}
 /* #endregion footer-upsell */
 
 /* #region footer */
