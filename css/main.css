@@ -130,6 +130,9 @@
   top: 3px;
   width: calc(100% - calc(3px) * 2);
 }
+.sign-up-card__btn:hover {
+    background-color: #ffffff6e;
+}
 
 @media screen and (min-width: 768px) {
   .sign-up-card {
