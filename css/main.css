@@ -423,4 +423,40 @@
 .footer__copyright :last-child {
   display: none;
 }
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    padding-top: 120px;
+    padding-bottom: 70px;
+  }
+
+  .footer__info-block {
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer__logo {
+    margin-bottom: 0;
+  }
+  .info-links {
+    margin-bottom: 0;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 80px;
+    grid-template-areas: "about nft contact social";
+  }
+
+  .footer__copyright {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__copyright :last-child {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #999;
+  }
+}
 /* #endregion footer */
